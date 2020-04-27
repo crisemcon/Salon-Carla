@@ -6301,6 +6301,27 @@ button {
   button:focus {
     outline: none !important; }
 
+.ftco-section {
+  padding: 7em 0;
+  position: relative; }
+  @media (max-width: 767.98px) {
+    .ftco-section {
+      padding: 6em 0; } }
+  .ftco-section .ftco-sub-title {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    color: #d4d4d4;
+    font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 300; }
+  .ftco-section .ftco-primary-title {
+    margin-top: 0;
+    margin-bottom: 30px; }
+
+.ftco-animate {
+  opacity: 0;
+  visibility: hidden; }
+
 .text-primary {
   color: #b400eb !important; }
 
@@ -6733,3 +6754,29 @@ button {
   .navbar-brand i {
     color: #b400eb;
     font-size: 30px; }
+
+.category .icon span {
+  margin: 0 auto;
+  font-size: 40px;
+  color: #b400eb; }
+
+.category h3 {
+  font-size: 15px;
+  margin-bottom: 20px;
+  text-transform: uppercase; }
+
+.ftco-partner {
+  padding: 2em 0; }
+
+.partner .partner-entry {
+  opacity: 1;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+  @media (min-width: 992px) {
+    .partner .partner-entry {
+      opacity: 0.3; } }
+  .partner .partner-entry:hover {
+    opacity: 1; }

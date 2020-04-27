@@ -1,0 +1,14 @@
+.ftco-partner {
+	padding: 2em 0;
+}
+.partner {
+	.partner-entry {
+		opacity: 1;
+		@include media-breakpoint-up(lg) { opacity: 0.3}
+		@include transition(0.3s);
+		&:hover {
+			opacity: 1;
+		}
+		
+	}
+}
