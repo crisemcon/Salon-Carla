@@ -1,8 +1,15 @@
 DAY 1 (23/04/2020) 4hrs 29min:
 
-Today I started to develop a landing page for my mom's salon. So I searched a lot for ideas to get some inspiration and I think now I have a clue of what I'm going
+Today I started to develop a landing page for my mom's beauty salon. So I searched a lot for ideas to get some inspiration and I think now I have a clue of what I'm going
 to build. I'm going to make it with HTML+CSS+JS, to get more practice with this stack because I went too deep into Reactjs without building something serious with
 this. I found a template, which has some things that I can get from it. I started the project setting my config to automatize the scss conversion into css with npm
 scripts. Also I have made the folder structure for the BEM method that I have learned from Jonas's CSS Advanced course. In conclusion, the header with a CTA button
 is done and under it is the navbar, which is unusual so I'm not sure about this. Anyway, thats it for today, I have to ask the client (my mom lul) for the requirements
 that she wants. I will give her some ideas, but I will do that tomorrow.
+
+DAY 2 (27/04/2020) 2hr 23min:
+
+I'm back into this project. I got some requirements that I have on a piece of paper. First of all, I changed the background image for one where the hair looks cleaner.
+Then I started to do the service categories section. I had a little trouble with the icons, but it is working. Then I have made the partners section, which includes
+the logos of brands that the salon uses, like loreal professionnel or alterego. It is responsive, with a hierarchy that shows the main brands and then the specific
+product line.
