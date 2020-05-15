@@ -13,3 +13,13 @@ I'm back into this project. I got some requirements that I have on a piece of pa
 Then I started to do the service categories section. I had a little trouble with the icons, but it is working. Then I have made the partners section, which includes
 the logos of brands that the salon uses, like loreal professionnel or alterego. It is responsive, with a hierarchy that shows the main brands and then the specific
 product line.
+
+DAY 3 (29/04/2020) 1hr:
+
+So today I added 3 sections to the home page: The 'Our Work' section, which displays 3 images of services done. Also the 'discount' section, which for now displays a CTA
+button to contact the salon and finally a 'Our Products' section, which displays 3 images of products that are being selled at the salon.
+
+DAY 4 (12/04/2020) 1hr:
+
+Today I did searched for all the products images that are required to appear in the web, with their respective description. Then I made a simple layout to display them in
+a new html, which is currently located pressing products in the navbar. In the future, I will have to make a button that goes to that page.
