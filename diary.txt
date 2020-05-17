@@ -24,6 +24,11 @@ DAY 4 (12/05/2020) 1hr:
 Today I did searched for all the products images that are required to appear in the web, with their respective description. Then I made a simple layout to display them in
 a new html, which is currently located pressing products in the navbar. In the future, I will have to make a button that goes to that page.
 
-DAY 5 (15/05/2029) 1hr:
+DAY 5 (14/05/2020) 1hr:
 
 At first I was going to do the services page, but I remembered that I wanted to make a review section in the index.html, so I have made the design for the reviews.
+
+DAY 6 (16/05/2020) 50min:
+
+Today I searched for real reviews in the facebook page and put them in the reviews section. Also I have made a button to see all the reviews in facebook. Finally I searched
+for an image to put at the reviews background.
