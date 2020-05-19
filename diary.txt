@@ -32,3 +32,8 @@ DAY 6 (16/05/2020) 50min:
 
 Today I searched for real reviews in the facebook page and put them in the reviews section. Also I have made a button to see all the reviews in facebook. Finally I searched
 for an image to put at the reviews background.
+
+DAY 7 (18/05/2020) 47min:
+
+Today I focused on reducing and adjusting the spaces between the sections, modifying the paddings and margins. Then I have made a button with a black outline to be showed
+on white backgrounds and implemented it in the products section, to bring the user to the products page.

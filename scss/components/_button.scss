@@ -47,6 +47,27 @@
 			}
 		}
 	}
+	&.btn-border-black {
+		background: $white;
+		border: 1px solid $darken;
+		color: $black;
+		&:hover {
+			border: 1px solid $black;
+			background: $black;
+			color :$white;
+		}
+		&.btn-outline-white {
+			border-color: rgba($white, .8);
+			background: none;
+			border-width: 1px;
+			color: $white;
+			&:hover, &:focus, &:active {
+				background: $white;
+				border-color: $white;
+				color: $black;
+			}
+		}
+	}
 	&.btn-outline-black {
 		border-color: rgba($black, 1);
 		background: none;

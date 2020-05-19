@@ -6306,7 +6306,7 @@ button {
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
-      padding: 6em 0; } }
+      padding: 4em 0; } }
   .ftco-section .ftco-sub-title {
     font-size: 16px;
     text-transform: uppercase;
@@ -6395,6 +6395,23 @@ button {
       border-width: 1px;
       color: #fff; }
       .btn.btn-white.btn-outline-white:hover, .btn.btn-white.btn-outline-white:focus, .btn.btn-white.btn-outline-white:active {
+        background: #fff;
+        border-color: #fff;
+        color: #000; }
+  .btn.btn-border-black {
+    background: #fff;
+    border: 1px solid #4a5562;
+    color: #000; }
+    .btn.btn-border-black:hover {
+      border: 1px solid #000;
+      background: #000;
+      color: #fff; }
+    .btn.btn-border-black.btn-outline-white {
+      border-color: rgba(255, 255, 255, 0.8);
+      background: none;
+      border-width: 1px;
+      color: #fff; }
+      .btn.btn-border-black.btn-outline-white:hover, .btn.btn-border-black.btn-outline-white:focus, .btn.btn-border-black.btn-outline-white:active {
         background: #fff;
         border-color: #fff;
         color: #000; }
@@ -6800,7 +6817,7 @@ button {
   position: relative; }
   @media (max-width: 767.98px) {
     .section-categories {
-      padding: 6em 0; } }
+      padding: 2em 0; } }
   .section-categories .ftco-sub-title {
     font-size: 16px;
     text-transform: uppercase;
@@ -6809,8 +6826,7 @@ button {
     font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-weight: 300; }
   .section-categories .ftco-primary-title {
-    margin-top: 0;
-    margin-bottom: 30px; }
+    margin-top: 0; }
 
 .ftco-partner {
   padding: 2em 0; }
@@ -7055,7 +7071,6 @@ button {
   font-size: 18px;
   line-height: 28px;
   color: #fff;
-  font-style: italic;
   margin-top: 20px;
   margin-bottom: 5px;
   text-shadow: 1px 1px #656565; }
