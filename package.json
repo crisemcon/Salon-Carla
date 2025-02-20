@@ -4,11 +4,11 @@
   "description": "Landing page for Carla Hair & Nails",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.comp.css",
+    "compile:sass": "sass scss/main.scss css/style.comp.css",
     "prefix:css": "postcss css/style.comp.css --use=autoprefixer --map=false --output=css/style.prefix.css",
-    "compress:css": "node-sass css/style.prefix.css css/style.css --output-style compressed",
+    "compress:css": "sass css/style.prefix.css css/style.css --style compressed",
     "build:css": "npm-run-all compile:sass concat:css prefix:css compress:css",
-    "build:sass": "node-sass -r scss/main.scss css/style.css",
+    "build:sass": "sass scss/main.scss css/style.css",
     "watch:sass": "npm run build:sass && npm run build:sass -- -w",
     "devserver": "live-server",
     "start": "npm-run-all --parallel devserver watch:sass"
@@ -16,12 +16,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "autoprefixer": "^9.7.4",
+    "autoprefixer": "^10.4.17",
     "concat": "^1.0.3",
-    "node-sass": "^4.13.1",
+    "sass": "^1.71.0",
     "npm-run-all": "^4.1.5",
-    "postcss": "^7.0.36",
-    "postcss-cli": "^7.1.0"
+    "postcss": "^8.4.35",
+    "postcss-cli": "^11.0.0",
+    "live-server": "^1.2.2"
   },
   "dependencies": {}
 }
